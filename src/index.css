@@ -46,7 +46,7 @@ body {
 .preview{
   margin: auto;
   width: 50%;
-  background-color: transparent;
+  background-color: transparent !important;
 }
 
 .print{
