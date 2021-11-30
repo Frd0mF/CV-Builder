@@ -70,7 +70,6 @@ body h1,h2,h3 {
   flex-direction: column;
   width: 40vw;
   height: fit-content;
-  padding-bottom: 25px;
   background-color: #EEEEEE;
 }
 
@@ -314,6 +313,7 @@ body h1,h2,h3 {
   justify-content: center;
   background-color: #EEEEEE;
   margin-bottom: 25px;
+  padding-buttom: 5px;
 }
 .pdf {
   background-color: #0d6efd;
