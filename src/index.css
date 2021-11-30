@@ -9,6 +9,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+
+body h1,h2,h3 {
+  color: #313B47;
+}
+
 .header {
   height: 80px;
   background-color: #313B47;
