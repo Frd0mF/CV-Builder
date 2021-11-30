@@ -9,22 +9,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-@media only screen and (max-width: 1350px) 
- {
-  .main {
-    flex-direction: column;
-}
-.cv-builder, .info {
-  min-width: 100vw;
-  margin: auto;
-  width: 50%;
-}
-.preview{
-  margin: auto;
-  width: 50%;
-}
-}
-
 .header {
   height: 80px;
   background-color: #313B47;
@@ -43,7 +27,37 @@ body {
   justify-content: space-evenly;
 }
 
+@media only screen and (max-width: 1350px) 
+ {
+   .App{
+    min-width: 230mm!important;
+   }
+  .main {
+    flex-direction: column;
+}
+.header {
+  min-width: 210mm;
+}
+.cv-builder, .info {
+  min-width: 210mm;
+  margin: auto;
+  width: 50%;
+}
+.preview{
+  margin: auto;
+  width: 50%;
+}
 
+.print{
+  margin: auto !important;
+  width: 50%;
+}
+.pdf {
+  margin: 20px 20px !important;
+  height: 50px !important;
+  width: 200mm !important;
+}
+}
 .cv-builder, .info {
   margin-top: 30px;
   display: flex;
